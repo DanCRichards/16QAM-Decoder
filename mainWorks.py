@@ -19,8 +19,6 @@ QAM16 = {(-3,3): '0000',(-3,1):'0001', (-3,-1):'0011', (-3,-3):'0010', (-1,3):'0
 
 def main():
     print("I am computer")
-    print("beep")
-    print("boop")
     textFileLinesArray = openText("nibble.txt")
     print(convertToAscii(textFileLinesArray))
  
@@ -42,6 +40,7 @@ def convertToAscii(array):
     
 def makePretty(tuple):
     #This basically rounds to the most appopriate point. 
+    # My love of processor branches is obvious here. 
 	x = 0
 	if tuple[0] > 2:
 		x = 3
