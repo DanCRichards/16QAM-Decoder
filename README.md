@@ -1,5 +1,7 @@
 # 16QAM-Demodulator
-Demodulates 16 Quadrature Amplification Modulation - Apparently. 
+Demodulates 16 Quadrature Amplification Modulation
 
-
-Last time I checked this worked a ok. :) 
+## Features
+- Takes an input of polarised values. 
+- Demodulates those values
+- Performs some 'error checking' 
